@@ -352,7 +352,7 @@ def api_db_load(vend, buy, db_compare=False, compressed=True):
                 print("Old database...")
                 #собираем ссылку
                 link = 'https://api.originsro.org/api/v1/market/list?api_key='
-                api_key = 'r3bkd0q8umxhuj75ahtvwpgkd3yzi3rm'
+                api_key = ''
                 #делаем вызов и сохраняем получаемое в переменной
                 response = rq.get('{}{}'.format(link, api_key))
                 #создаем путь/имя для нашей новой базы
